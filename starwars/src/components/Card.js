@@ -6,15 +6,13 @@ const Card = props => {
     
     //styled components
     const CardDiv = styled.div`
-        display: flex;
-        width: 8%;
+        width: 10%;
         margin: 1%;
-        flex-direction: column; 
     `;
     return (
         <CardDiv>
-            {/* {console.log("Card data below this")}
-            {console.log(props)} */}
+            {console.log("Card data below this")}
+            {console.log(props)}
             <Bio character={props}/>
         </CardDiv>
     )

@@ -12,6 +12,7 @@ const Bio = props => {
     `;
     const CharacterCard = styled.div`
         background-color: #ede9dd;
+        flex-direction: row;
     `;
     const { name, birth_year, gender, hair_color, height, ...rest } = props.character.characters;
     return (
