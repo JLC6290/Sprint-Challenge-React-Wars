@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+**ReactJS is a javascript library for building user interfaces for web applications. It extends javascript syntax, enabling use of HTML and CSS from within a .js file with additional functionality. Its name is derived from the design principle of 'reacting' to what is happening on the page, which React enhances through its design of web hooks.**
+
 - [ ] What does it mean to _think_ in react?
+
+**To embrace the design philosophy of React, structuring your web application accordingly. Consider the data flowing into the application, and where it's going, setting up a cascading heierarchy of data pools.**
 
 - [ ] Describe state.
 
+**A piece of software that 'remembers' events. If a system can display information changed based on an event, it is 'stateful'.**
+
 - [ ] Describe props.
 
+**Props are the React parameter used in components to accept data encapsulated into a single object.**
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+**Side effects are any effects caused by a function outside of its scope. React employs hooks in order to manage states locally within components, and render only what needs to be rendered.**
 
 ## Project Set Up
 
